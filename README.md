@@ -16,12 +16,12 @@ Sensitive information, flags, and internal paths have been intentionally redacte
 ---
 
 # 📊 Leaderboard
-Your team’s placement is documented below.
+
 
 ![Leaderboard Screenshot](CTF.png
 )
 
-*(Replace `leaderboard.png` with your actual uploaded file name.)*
+
 
 ---
 
