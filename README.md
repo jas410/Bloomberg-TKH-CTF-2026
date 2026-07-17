@@ -25,36 +25,43 @@ Sensitive information, flags, and internal paths have been intentionally redacte
 
 ---
 
-# 🧭 Summary Table of All Levels
+# 🧭 Summary
+
+---
 
 | Level | Category | Technique | Result |
 |-------|----------|-----------|--------|
-| 0 | [Category] | [Technique] | Completed |
-| 1 | [Category] | [Technique] | Completed |
-| 2 | [Category] | [Technique] | Completed |
-| 3 | [Category] | [Technique] | Completed |
-| 4 | [Category] | [Technique] | Completed |
-| 5 | [Category] | [Technique] | Completed |
-| 6 | [Category] | [Technique] | Completed |
-| 7 | [Category] | [Technique] | Completed |
-| 8 | [Category] | [Technique] | Completed |
-| 9 | [Category] | [Technique] | Completed |
-| 10 | [Category] | [Technique] | Completed |
-| 11 | [Category] | [Technique] | Completed |
-| 12 | [Category] | [Technique] | Completed |
-| 13 | [Category] | [Technique] | Completed |
-| 14 | [Category] | [Technique] | Completed |
-| 15 | [Category] | [Technique] | Completed |
-| 16 | [Category] | [Technique] | Completed |
-| 17 | [Category] | [Technique] | Completed |
-| 18 | [Category] | [Technique] | Completed |
-| 19 | [Category] | [Technique] | Completed |
-| 20 | [Category] | [Technique] | Completed |
-| 21 | [Category] | [Technique] | Completed |
-| 22 | [Category] | [Technique] | Completed |
-| 23 | [Category] | [Technique] | Completed |
-| 24 | [Category] | [Technique] | Completed |
-| 25 | Meta Challenge (Bonus Level) | Hidden DOM / Source Discovery | Completed |
+| −1 | Information Disclosure | Hidden HTML comment in source | ![redacted](https://img.shields.io/badge/Path-REDACTED-red) |
+| 0 | Forced Browsing | Sequential URL tampering | ![redacted](https://img.shields.io/badge/Path-REDACTED-orange) |
+| 1 | Broken Authentication | Default credentials (admin:admin) | ![auto](https://img.shields.io/badge/Auto--Advanced-blue) |
+| 2 | Sensitive Data Exposure | Leaked custom HTTP response header | ![leaked](https://img.shields.io/badge/Next--Level-Leaked-yellow) |
+| 3 | Client-Side Secrets | window.nextLevelKey via atob() Base64 | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 4 | Parameter Tampering | Hidden field has_accepted_eula → no | ![bypassed](https://img.shields.io/badge/EULA-Bypassed-green) |
+| 5 | Insecure Session Mgmt | Forged cookie isAuthenticated=1 | ![bypassed](https://img.shields.io/badge/Auth-Bypassed-green) |
+| 6 | Broken JWT Validation | Flipped isAdmin:0 → 1 | ![escalation](https://img.shields.io/badge/Privilege-Escalation-purple) |
+| 7 | Access Control Bypass | X-Forwarded-For: 127.0.0.1 spoof | ![localhost](https://img.shields.io/badge/Localhost-Bypassed-teal) |
+| 8 | Hardcoded Credentials | strings on ELF binary | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 9 | Insecure Client Crypto | SHA-256 hash cracked | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 10 | Open Redirect | Schemaless / mixed-slash bypass /\ | ![redirect](https://img.shields.io/badge/Redirect-Forced-blueviolet) |
+| 11 | Verbose Error / HPP | HTTP Parameter Pollution ?q[]= | ![stacktrace](https://img.shields.io/badge/Stack--Trace-Leaked-yellowgreen) |
+| 12 | Client Crypto / Obfuscation | CryptoJS AES decrypt | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 13 | Hidden Asset Disclosure | Unlinked PNG via Network tab | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 14 | Prompt Injection | "Ignore previous instructions" override | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 15 | SQL Injection | admin' OR '1'='1 | ![loggedin](https://img.shields.io/badge/Logged--In-Without_Password-critical) |
+| 16 | Command Injection | ; id command separator | ![rce](https://img.shields.io/badge/RCE-uid%3D33(www--data)-black) |
+| 17 | Network Fundamentals | /27 subnet math | ![network](https://img.shields.io/badge/Subnet-Calculated-lightgrey) |
+| 18 | Code Analysis | Python socket scanner | ![analysis](https://img.shields.io/badge/Code-Analyzed-lightblue) |
+| 19 | Reverse Engineering | JS C2 beacon deobfuscation | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 20 | Predictable Tokens | MD5 of sequential integer | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 21 | Path Traversal | Non-recursive filter bypass | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 22 | Business Logic | Negative-value credit transfer | ![inflated](https://img.shields.io/badge/Balance-Inflated-success) |
+| 23 | Chained Exploit | JWT secret + forged token + IP spoof | ![redacted](https://img.shields.io/badge/REDACTED-red) |
+| 24 | Hidden Content | Decoy page + hidden DOM link | ![found](https://img.shields.io/badge/Secret-Level-Found-brightgreen) |
+| 25 | Meta Challenge | "Information hidden in plain sight" | ![master](https://img.shields.io/badge/Master_of_Security-🏅-gold) |
+
+---
+
+
 
 ---
 
