@@ -25,7 +25,7 @@ Sensitive information, flags, and internal paths have been intentionally redacte
 
 ---
 
-# 🧭 Summary
+# Summary
 
 ---
 
