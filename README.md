@@ -18,7 +18,8 @@ Sensitive information, flags, and internal paths have been intentionally redacte
 # 📊 Leaderboard
 Your team’s placement is documented below.
 
-![Leaderboard Screenshot](leaderboard.png)
+![Leaderboard Screenshot](<img width="2944" height="1509" alt="CTF" src="https://github.com/user-attachments/assets/f7546d41-4ca3-4012-ac5a-74baf3a58c72" />
+)
 
 *(Replace `leaderboard.png` with your actual uploaded file name.)*
 
