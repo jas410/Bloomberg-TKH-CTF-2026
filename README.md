@@ -74,7 +74,7 @@ Since screenshots of the challenge itself cannot be shared, each write-up is doc
 
 ### **Level X — [Challenge Category]**
 **Objective:**  
-Describe what the challenge required (e.g., bypassing authentication, decoding a client-side secret, exploiting a logic flaw).
+Find the hidden entry point from a landing page with no visible navigation. Technique: Manual source-code review (View Source) revealed a developer HTML comment documenting the first challenge route. Result: Next-level path → [REDACTED] Lesson: Comments ship to the client. Routing details and architectural notes leaked in source are reconnaissance gold.
 
 **Technique:**  
 Explain the method used (e.g., DevTools inspection, cookie manipulation, SQL injection payload, hash cracking, etc.).
