@@ -97,13 +97,14 @@ Advance from the Level 0 intro screen with no redirect button.
 **Result:**  
  Next-level path → [REDACTED] Lesson: Sequential, guessable resource paths with no authorization check let users navigate directly to protected resources.
 
- Lesson: Sequential, guessable resource paths with no authorization check let users navigate directly to protected resources.
+**Lesson:**
+Sequential, guessable resource paths with no authorization check let users navigate directly to protected resources.
 ---
 
 ### **Level 1 —   Broken Authentication (Default Credentials)**
 
 **Technique:**  
- Submitted classic defaults admin / admin
+Submitted classic defaults admin / admin
 
 **Lesson:**  
 Default and easily brute-forced credentials remain a persistent OWASP Top 10 issue.
