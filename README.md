@@ -408,7 +408,7 @@ Reaching the hidden final level confirmed full completion. The meta-lesson tied 
 
 ---
 
-# ✍️ Write-Up by Jasmine  
+# ✍️ Write-Up by Jasmine Adams
 **Team:** Phish & Chips  
 **Placement:** 4th Place  
 **Completion:** 25/25 Levels
