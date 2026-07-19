@@ -97,8 +97,6 @@ Advance from the Level 0 intro screen with no redirect button.
 **Result:**  
  Next-level path → [REDACTED] Lesson: Sequential, guessable resource paths with no authorization check let users navigate directly to protected resources.
 
-**Lesson:**  
-Summarize the security principle demonstrated by the challenge.
 
 ---
 
