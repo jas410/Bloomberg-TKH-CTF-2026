@@ -375,8 +375,9 @@ Real attacks chain low-severity findings. An info leak + a trust flaw compound i
 **Technique:**  
 The "🎉 Congratulations, you've completed the CTF!" page was a decoy. Inspecting the DOM (and a console hint) exposed a hidden link to the secret level. (hint + path redacted)
 
-**Lesson:**  
+**Lesson:**
 Trust the source tree, not the rendered view. "The end" is sometimes hidden in plain sight.
+
 ---
 
 ### **Level 25 — 🎯 The Meta Challenge (Secret Level)**
