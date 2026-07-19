@@ -87,6 +87,22 @@ Summarize the security principle demonstrated by the challenge.
 
 ---
 
+### **Level 0 —  Forced Browsing / Predictable Resource Location)**
+**Objective:**  
+Advance from the Level 0 intro screen with no redirect button. 
+
+**Technique:**  
+ Anticipated a sequential routing scheme and manually incremented the level number in the URL.
+
+**Result:**  
+ Next-level path → [REDACTED] Lesson: Sequential, guessable resource paths with no authorization check let users navigate directly to protected resources.
+
+**Lesson:**  
+Summarize the security principle demonstrated by the challenge.
+
+---
+
+
 ### **Level 25 — Surprise Bonus Level**
 **Category:** Meta Challenge  
 **Objective:**  
