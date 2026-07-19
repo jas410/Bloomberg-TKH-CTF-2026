@@ -72,7 +72,7 @@ Since screenshots of the challenge itself cannot be shared, each write-up is doc
 
 ---
 
-### **Level X — [Challenge Category]**
+### **Level -1 —  Information Disclosure (Source Code Comments)**
 **Objective:**  
 Find the hidden entry point from a landing page with no visible navigation. Technique: Manual source-code review (View Source) revealed a developer HTML comment documenting the first challenge route. Result: Next-level path → [REDACTED] Lesson: Comments ship to the client. Routing details and architectural notes leaked in source are reconnaissance gold.
 
